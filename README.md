@@ -8,18 +8,11 @@ The latest version of plugin bundled by this gem is [v2.6.1](https://github.com/
 
 ## Installation
 
-Include **medium-editor-markdown-rails** in your Rails project's Gemfile:
+Include **medium-editor-markdown-plugin** in your Rails project's Gemfile:
 
 ```ruby
-gem 'medium-editor-rails'
-gem 'medium-editor-markdown-rails'
-```
-
-And then execute:
-
-```bash
-bundle install
-bundle exec rake markdown_plugin:update
+gem 'medium-editor'
+gem 'medium-editor-markdown-plugin'
 ```
 
 ## Configuration
@@ -57,7 +50,7 @@ Initialize Medium Editor and add Markdown Plugin inside configuration:
 
 ## Contributing
 
-1. Fork it ( https://github.com/mwlang/medium-editor-markdown-rails/fork )
+1. Fork it ( https://github.com/mwlang/medium-editor-markdown-plugin/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
